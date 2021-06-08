@@ -60,17 +60,17 @@ Customer details (gender, age, region etc.) Details of his/her relationship with
 ## Explore Data (Training and Test)
 Exploratory data analysis is an approach of analysing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. It is a critical process of performing initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.
 The major processes that we do in the EDA are:
-    * Handling Missing values
-    * Removing duplicates
-    * Outlier Treatment
-    * Normalizing and Scaling ( Numerical Variables)
-    * Encoding Categorical variables ( Dummy Variables)
-    * Bivariate Analysis
+ Markup :    * Handling Missing values
+             * Removing duplicates
+             * Outlier Treatment
+             * Normalizing and Scaling ( Numerical Variables)
+             * Encoding Categorical variables ( Dummy Variables)
+             * Bivariate Analysis
 For the above process, some important libraries are imported,
-    * Numpy
-    * Pandas
-    * Seaborn and
-    * Matplotlip
+Markup :    * Numpy
+            * Pandas
+            * Seaborn and
+            * Matplotlip
    
 For handling missing values and to remove duplicates, isnull() and duplicated() functions from pandas are used respectively.
 
@@ -79,8 +79,8 @@ Outliers, being the most extreme observations, may include the sample maximum or
 Using box and whiskers chart (boxplot) we can show the outlier in the data set.
 
 If the outlier is present in the data, then we can,
-    * Drop the outlier value
-    * Replace the outlier value using the __IQR__(Interquartile Range)
+Markup : * Drop the outlier value
+         * Replace the outlier value using the __IQR__(Interquartile Range)
 
 Before the normalising split the data into numerical distribution data set using select_dtypes(). Then verify the skewness. The primary reason of the skew is that analysis based on normal distributions incorrectly estimates expected returns and risk.
 Skewness is a measure of symmetry, or more precisely, the lack of symmetry. A distribution, or data set, is symmetric if it looks the same to the left and right of the center point.
